@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Safely.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                <Image Source="logo1.png" HeightRequest="150" WidthRequest="150" Margin="0,80,0,0"></Image>
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+          
+  
+            <Entry x:Name="RegisterEmail" Placeholder="Email"></Entry>
+            <Entry x:Name="RegisterPassword" Placeholder="Password" IsPassword="True"></Entry>
+            <Entry x:Name="RegisterPasswordConfirm" Placeholder="Confirm Password" IsPassword="True"></Entry>
+            <StackLayout Orientation="Horizontal">
+
+                <Label Text="Stay logged in" VerticalOptions="Center"></Label>
+                <Switch x:Name="StayLoggedIn" IsToggled="False"></Switch>
+            </StackLayout>
+            <Button x:Name="RegisterBtn" Text="Sign Up" Clicked="RegisterProcedure"/>
+            <Button Text="Already have account? Sign In" TextColor="Blue" BackgroundColor="Transparent" FontSize="12" Clicked="BacktoSignup"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

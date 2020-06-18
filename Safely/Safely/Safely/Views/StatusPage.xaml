@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Safely.Views.StatusPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="0,80,0,-40">
+                <Label Text="How would you" FontSize="36" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="evaluate your status?" FontSize="36" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="250" Spacing="15">
+              
+                <Button Text="Healthy" Clicked="UpdateUserStatus" BackgroundColor="#003d59" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+                <Button Text="Recovered" Clicked="UpdateUserStatus" BackgroundColor="#1d9171" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+                <Button Text="Symptomatic" Clicked="UpdateUserStatus" BackgroundColor="#fc9530" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+                <Button Text="Diagnosed" Clicked="UpdateUserStatus" BackgroundColor="#ff4d26" TextColor="White" FontAttributes="Bold" FontSize="18" BorderRadius="10" HeightRequest="75"></Button>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

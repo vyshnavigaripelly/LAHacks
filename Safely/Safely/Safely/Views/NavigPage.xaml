@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Safely.Views.NavigPage">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Spacing="0" Padding="0,40,0,20" WidthRequest="250">
+                <Image Source="logo1.png" WidthRequest="250"></Image>
+            </StackLayout>
+
+            <StackLayout>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="Map" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="Update my status" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="About" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+                <Button Text="Log out" Clicked="RedirectClick" HeightRequest="40" WidthRequest="100" BackgroundColor="Transparent" FontSize="16" FontAttributes="Bold" TextColor="#003d59"></Button>
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1.5" WidthRequest="1" Color="#003d59"/>
+
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" Padding="20">
+                <Label Text="Copyright © 2020. Safely." FontSize="14" FontAttributes="Italic"></Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
