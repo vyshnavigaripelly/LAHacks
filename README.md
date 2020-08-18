@@ -21,10 +21,6 @@ The answer given will be stored in the database, and the user will be directed t
 # Installation
 To install this mobile application, you can clone this repository on your local computer, and connect your android phone to your computer. The iOS version has not yet been released on the App Store. If you want to try this app without an android, once the repository is cloned, [download an android emulator](https://visualstudio.microsoft.com/vs/msft-android-emulator/) from Visual Studio's extensions and run the project from VS itself.
 
-# Team
-| Y. Demers | W. Laplante | F. Schmitt  | L. Weishaupt  |
-| :---:     | :-:         | :-:         | :-:           |
-| https://github.com/yaeldemers | https://github.com/williamlaplante | https://github.com/fynnsu | https://github.com/luca-weishaupt |
 
 ## Disclaimer 
 (i) _Safely_ hasn't been released publically yet. It is still in alpha stage and needs improvements on many fronts before it is commercially available. Any distribution of _Safely_ - done without the development team's approval - might lead to legal actions.
